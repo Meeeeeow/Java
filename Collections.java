@@ -133,6 +133,22 @@ public class Collections {
 		System.out.println(treeSet);
 		treeSet.remove("B");
 		
+		List<Integer> arr1 = new ArrayList<>();
+		arr1.add(1);
+		arr1.add(-100);
+		arr1.add(10);
+		arr1.add(24);
+		arr1.add(18);
+		System.out.println(arr1);
+		arr1.sort(Comparator.naturalOrder());
+		System.out.println(arr1);
+		arr1.set(2, -20);
+		System.out.println(arr1);
+		arr1.sort(Comparator.reverseOrder());
+		for(int item : arr)
+		{
+			System.out.print(item + " ");
+		}
 	}
 
 }
